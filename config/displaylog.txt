@@ -1,0 +1,16 @@
+Date: Mon Jan 25 2021 16:01:14 GMT+0100 (Central European Standard Time), Screen: 2560x1400, WindowSize: 2560,1440, ContentSize: 2560,1440
+Date: Mon Jan 25 2021 16:01:55 GMT+0100 (Central European Standard Time), Screen: 2560x1400, WindowSize: 2576,1416, ContentSize: 2560,1377
+Date: Mon Jan 25 2021 16:04:24 GMT+0100 (Central European Standard Time), Screen: 2560x1400, WindowSize: 2576,1416, ContentSize: 2560,1377
+Date: Mon Jan 25 2021 16:04:34 GMT+0100 (Central European Standard Time), Screen: 2560x1400, WindowSize: 2576,1416, ContentSize: 2560,1377
+Date: Mon Jan 25 2021 16:04:44 GMT+0100 (Central European Standard Time), Screen: 2560x1400, WindowSize: 2576,1416, ContentSize: 2560,1377
+Date: Mon Jan 25 2021 16:04:54 GMT+0100 (Central European Standard Time), Screen: 2560x1400, WindowSize: 2576,1416, ContentSize: 2560,1377
+Date: Mon Jan 25 2021 16:05:04 GMT+0100 (Central European Standard Time), Screen: 2560x1400, WindowSize: 2576,1416, ContentSize: 2560,1377
+Date: Mon Jan 25 2021 16:08:54 GMT+0100 (Central European Standard Time), Screen: 2560x1400, WindowSize: 2576,1416, ContentSize: 2560,1357
+Date: Mon Jan 25 2021 16:09:04 GMT+0100 (Central European Standard Time), Screen: 2560x1400, WindowSize: 2576,1416, ContentSize: 2560,1357
+Date: Mon Jan 25 2021 16:09:14 GMT+0100 (Central European Standard Time), Screen: 2560x1400, WindowSize: 2576,1416, ContentSize: 2560,1357
+Date: Mon Jan 25 2021 16:09:24 GMT+0100 (Central European Standard Time), Screen: 2560x1400, WindowSize: 2560,1004, ContentSize: 2544,945
+Date: Mon Jan 25 2021 16:09:34 GMT+0100 (Central European Standard Time), Screen: 2560x1400, WindowSize: 2560,1004, ContentSize: 2544,945
+Date: Mon Jan 25 2021 16:10:06 GMT+0100 (Central European Standard Time), Screen: 2560x1400, WindowSize: 2560,1025, ContentSize: 2544,986
+Date: Mon Jan 25 2021 16:10:16 GMT+0100 (Central European Standard Time), Screen: 2560x1400, WindowSize: 2560,1025, ContentSize: 2544,986
+Date: Mon Jan 25 2021 16:10:26 GMT+0100 (Central European Standard Time), Screen: 2560x1400, WindowSize: 2576,1416, ContentSize: 2560,1377
+Date: Mon Jan 25 2021 16:10:36 GMT+0100 (Central European Standard Time), Screen: 2560x1400, WindowSize: 2576,1416, ContentSize: 2560,1377
