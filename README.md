@@ -27,7 +27,7 @@ $ electron-packager . --overwrite --platform=darwin --arch=x64 --icon=assets/ico
 Windows
 
 ```bash
-$ electron-packager . --overwrite --asar=true --platform=win32 --arch=ia32 --icon=assets/icons/win/opc.ico --prune=true --out=release-builds --version-string.CompanyName=CE --version-string.FileDescription=CE --version-string.ProductName="OPC Webviewer"
+$ electron-packager . --overwrite --asar=true --platform=win32 --arch=ia32 --icon=assets/icons/win/icon.ico --prune=true --out=release-builds --version-string.CompanyName=CE --version-string.FileDescription=CE --version-string.ProductName="Electron Webviewer"
 ```
 
 Linux (Ubuntu)
