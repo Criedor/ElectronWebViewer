@@ -3,7 +3,6 @@ const { BrowserWindow, screen, app, Menu } = electron;
 const fs = require('fs');
 const path = require("path");
 
-
 // Keep a global reference of the window object, if you don't, the window will
 // be closed automatically when the JavaScript object is garbage collected.
 let mainWindow;
@@ -11,9 +10,7 @@ let screenHeight;
 let screenWidth;
 let initPath;
 var template = [];
-
 const appPath = app.getPath("exe");
-
 app.commandLine.appendSwitch ("disable-http-cache");
 
 
@@ -135,15 +132,19 @@ app.on("ready", () => {
     },
   });
 
+
   // Load the index.html which contains the webview
   mainWindow.loadURL(config.url[0])
   
+
   // Makes sure the webviewer layer is shown
   mainWindow.maximize();
   
+
   //Create Menu based on predefined template, controled by config.json
   const menu = Menu.buildFromTemplate(template);
   Menu.setApplicationMenu(menu);
+
 
   //Save last working screen resolution to config.json
   config.width = screenWidth
@@ -154,6 +155,7 @@ app.on("ready", () => {
   catch(e) {
      alert('Failed to save the file !'); 
   }
+
 
   // Reload WebView: To reload at 6am set & use timer, else use millisecs (3600000 = 1h)
   var now = new Date();
@@ -179,7 +181,8 @@ app.on("ready", () => {
     console.log("refreshed by timer")
   }, timer)
 
-//Carousell Option -> loads the url from the url array every 10s
+  
+  //Carousell Option -> loads the url from the url array every 10s
   let i = 0
   setInterval(function(){
     if (config.url.length > 1  && config.carousell){
@@ -193,7 +196,8 @@ app.on("ready", () => {
     }
    }, config.carouselltime );
 
-  // Log the current Screen size, AppWindowSize and WindowContentSize to displaylog.json
+  
+   // Log the current Screen size, AppWindowSize and WindowContentSize to displaylog.json
   let currentScreen
   let currentSize
   let currentContentSize
@@ -209,6 +213,8 @@ app.on("ready", () => {
     }
   },3600000)
 })
+
+
 
 // Quit when all windows are closed.
 app.on("window-all-closed", () => {
